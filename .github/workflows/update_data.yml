@@ -24,7 +24,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests pandas
+        run: pip install requests pandas matplotlib
 
       - name: Download latest orbital data
         run: python update_data.py
