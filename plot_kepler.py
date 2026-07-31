@@ -57,7 +57,7 @@ if __name__ == '__main__':
         ax.grid()
         ax.grid(which='minor', alpha=0.3)
         # ax.xaxis.set_major_locator(mdates.HourLocator(interval=12))
-        ax.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m/%Y %H:%M'))
+        ax.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m/%Y'))
         ax.set_xticks(ax.get_xticks()[1::2])
         ax.set_xticklabels(ax.get_xticklabels(), rotation=20, ha='right')
 
